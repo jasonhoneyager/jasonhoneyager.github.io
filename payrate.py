@@ -36,7 +36,7 @@ def Overtime(hours):
     if hours - 40 <= 0:
         overtime = 0
     else:
-        overtime = (hours - 40) * (payrate * 1.5)
+        overtime = (hours - 40) * (payrate * 0.5)
     return overtime
 def Paycheck():
     wages = (hours + vacation) * payrate
